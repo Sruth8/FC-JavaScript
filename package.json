@@ -1,0 +1,19 @@
+{
+  "name": "fc-javascript",
+  "version": "1.0.0",
+  "description": "Free Coding Camp",
+  "main": "vars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sruth8/FC-JavaScript.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sruth8/FC-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Sruth8/FC-JavaScript#readme"
+}

@@ -7,3 +7,5 @@ a = 7;
 b = a;
 
 console.log(a)
+
+
