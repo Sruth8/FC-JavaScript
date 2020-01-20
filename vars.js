@@ -35,8 +35,18 @@ studlyCapVar =10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
 
-console.log(studlyCapVar)
-// adding Numbers
+//console.log(studlyCapVar)
 
+
+// adding Numbers
+var sum = 10 + 10;
+console.log(sum)
+
+// Subtracting Numbers
+var difference = 45 - 3;
+ console.log(difference)
+
+ //Multiplying Numbers
+ 
 
 
