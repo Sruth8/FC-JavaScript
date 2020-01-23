@@ -52,3 +52,24 @@ var myArray = [["Dude", 22], ["rat", 3]];
 var removedFromMyArray = myArray.pop(); //popped off the ["rat", 3]
    console.log(myArray)   
 
+
+//Manipulate Arrays with shift();
+var ourArray = ["Garfield", "R", ["cat"]];
+var removedFromOurArray = ourArray.shift(); //this will remove the first element "Garfield"
+    console.log(ourArray)
+    
+var myArray = [["Ping", 24], ["truck", 1]];
+var removedFromMyArray = myArray.shift();
+    console.log(myArray)    
+
+//Manipulate Arrays with unshif()
+var  ourArray = ["Garfield", "R", "cat"];
+ourArray.shift(); //shifts of the first element, the array will equal ["R", "cat"]
+ourArray.unshift("Crazy"); //will shift to the start or 0 position of the array
+   console.log(ourArray)
+   
+var myArray = [["Ping", 24], ["Truck", 1]];
+myArray.unshift("medium"); //shifts to the start or 0 position of the array
+    console.log(myArray)  
+    
+    
