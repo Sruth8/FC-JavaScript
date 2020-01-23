@@ -82,32 +82,5 @@ var lastName = "Clemm";
 var lastLetterOfLastName = lastName[lastName.length -1];
   console.log(lastLetterOfLastName)
 
-  //--------Word Blanks-------- Game------
 
-  function wordBlanks(myNoun, MyAdjective, myVerb, MyAdverb) {
-      var result = "";
-      result += "The " + MyAdjective + " " + myNoun + " " + myVerb + " really " + MyAdverb;
-      return result;
-  }
-
-console.log(wordBlanks("cat", "small", "climb", "fast"));
-console.log(wordBlanks("fish", "large", "swim", "slow"));
-
-
-//Store Multiple Values with Arrays
-var myArray = ["Kash", 22];
-
-//Nested Arrays
-var nestArray = [["The Vortex", 666], ["Power", 0100]]; //two arrays in an array
-
-
-// Access Array Data with Indexes
-var myArray = [80,70,40];
-var myData = myArray[0]; //equals 80
-  console.log(myData)
-
-//Modify Array Data With Indexes
-var myArray = [88,44,66];
-myArray[1] = 55; //myArray now equals 55 [88,55,66]
-   console.log(myArray)
 
