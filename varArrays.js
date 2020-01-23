@@ -71,5 +71,15 @@ ourArray.unshift("Crazy"); //will shift to the start or 0 position of the array
 var myArray = [["Ping", 24], ["Truck", 1]];
 myArray.unshift("medium"); //shifts to the start or 0 position of the array
     console.log(myArray)  
-    
+
+// ------ Shopping List ------
+  
+var myList = [["popcorn", 4], ["Ginga", 3], ["salad", 2], ["juice", 3], ["eggs", 1]];
+
+// Write Reuseable Code with Functions
+function ourReusableFunction() {
+    console.log("Yoooo, Winning");
+}
+
+ourReusableFunction();
     
