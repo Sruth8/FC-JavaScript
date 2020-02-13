@@ -91,6 +91,16 @@ console.log(miltiEight(5)); //this should log a 40
 processed = processArg(7);
 
 //----------Stand in Line--------
+  function nextInLine(arr, item) {
+ arr.push(item);
+    return arr.shift(); //returns the first item 
+  }
 
+  var testArr = [1,2,3,4,5];
 
+  console.log("Before: " + JSON.stringify(testArr)); //this JSON.stringify changes the array in to a string
+  console.log(nextInLine(testArr, 6));
+  console.log("After: " + JSON.stringigy(testArr));
+
+// -----------Boolean Values---------   
 
