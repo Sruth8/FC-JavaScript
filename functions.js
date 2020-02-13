@@ -93,14 +93,32 @@ processed = processArg(7);
 //----------Stand in Line--------
   function nextInLine(arr, item) {
  arr.push(item);
-    return arr.shift(); //returns the first item 
+    return arr.shift(); //removes then returns the first item 2
   }
 
   var testArr = [1,2,3,4,5];
 
   console.log("Before: " + JSON.stringify(testArr)); //this JSON.stringify changes the array in to a string
   console.log(nextInLine(testArr, 6));
-  console.log("After: " + JSON.stringigy(testArr));
+  console.log("After: " + JSON.stringify(testArr));
 
-// -----------Boolean Values---------   
+// -----------Boolean Values---------  
+ function welcomeToBooleans() {
+     return false;    //true is on and false is off
+ }
+
+//-------- Use Conditional Logic with if statements -------
+ function ourTrueOrFalse(isItTrue) {
+     if (ifItTrue) {
+         return "Yes, it's true";
+     }
+     return "No, it's false";
+ }
+
+ function trueOrFalse(wasThatTrue) {
+
+ }
+
+trueOrFalse(true);
+ 
 
