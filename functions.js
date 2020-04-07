@@ -107,18 +107,22 @@ processed = processArg(7);
      return false;    //true is on and false is off
  }
 
-//-------- Use Conditional Logic with if statements -------
+//-------- Use Conditional Logic with "if" statements -------
  function ourTrueOrFalse(isItTrue) {
-     if (ifItTrue) {
+     if (ifItTrue) {    // "if" statments help make decisions in code
          return "Yes, it's true";
      }
      return "No, it's false";
  }
 
  function trueOrFalse(wasThatTrue) {
-
+  if (wasThatTrue) {
+      return "Yes, that was true";
+  }
+  return "No, that was false";
  }
-
+   console.log(trueOrFalse(true));
+   
 trueOrFalse(true);
  
 
