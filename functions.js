@@ -122,7 +122,17 @@ processed = processArg(7);
   return "No, that was false";
  }
    console.log(trueOrFalse(true));
-   
-trueOrFalse(true);
+
+
  
 
+// ------- Comparison with the Equality Operator or Boolean operator ------//
+function testEqual(val) {  // the "val" is one Equality Operator
+    if (val == 12) {            // want to see if "val"  = 12  true or false
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+console.log(testEqual(10));
+console.log(testEqual(12));
